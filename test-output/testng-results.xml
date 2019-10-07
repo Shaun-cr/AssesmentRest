@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-07T20:22:47 SAST" name="Default suite" finished-at="2019-10-07T20:22:49 SAST" duration-ms="2338">
+  <suite started-at="2019-10-07T20:38:47 SAST" name="Default suite" finished-at="2019-10-07T20:38:49 SAST" duration-ms="2422">
     <groups>
     </groups>
-    <test started-at="2019-10-07T20:22:47 SAST" name="Default test" finished-at="2019-10-07T20:22:49 SAST" duration-ms="2338">
+    <test started-at="2019-10-07T20:38:47 SAST" name="Default test" finished-at="2019-10-07T20:38:49 SAST" duration-ms="2422">
       <class name="TakeAway.AssesmentRest.NewTest">
-        <test-method signature="testGetAlbumsHas100Records()[pri:0, instance:TakeAway.AssesmentRest.NewTest@fdefd3f]" started-at="2019-10-07T20:22:47 SAST" name="testGetAlbumsHas100Records" finished-at="2019-10-07T20:22:49 SAST" duration-ms="2307" status="PASS">
+        <test-method signature="testGetAlbums_isActiveAndReturningRecords()[pri:0, instance:TakeAway.AssesmentRest.NewTest@fdefd3f]" started-at="2019-10-07T20:38:47 SAST" name="testGetAlbums_isActiveAndReturningRecords" finished-at="2019-10-07T20:38:49 SAST" duration-ms="2389" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetAlbumsHas100Records -->
+        </test-method> <!-- testGetAlbums_isActiveAndReturningRecords -->
       </class> <!-- TakeAway.AssesmentRest.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

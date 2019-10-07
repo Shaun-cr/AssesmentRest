@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.*;
 
 public class NewTest {
   @Test
-  public void testGetAlbumsHas100Records() {
+  public void testGetAlbums_isActiveAndReturningRecords() {
 	    given().
 	    when().
 	        get("https://jsonplaceholder.typicode.com/albums").
