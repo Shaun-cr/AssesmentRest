@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-07T19:19:52 SAST" name="Default suite" finished-at="2019-10-07T19:19:55 SAST" duration-ms="2970">
+    <groups>
+    </groups>
+    <test started-at="2019-10-07T19:19:52 SAST" name="Default test" finished-at="2019-10-07T19:19:55 SAST" duration-ms="2970">
+      <class name="TakeAway.AssesmentRest.NewTest">
+        <test-method signature="f()[pri:0, instance:TakeAway.AssesmentRest.NewTest@fdefd3f]" started-at="2019-10-07T19:19:52 SAST" name="f" finished-at="2019-10-07T19:19:55 SAST" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TakeAway.AssesmentRest.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
