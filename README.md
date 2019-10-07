@@ -14,6 +14,6 @@
 3. Run all the unit test classes: 
 "$ mvn test"
 4. Run a single test class: 
-"$ mvn -Dtest=TestApp1 test"
+"$ mvn -Dtest=Test_GetAlbumsRestService test"
 5. Run a single test method from a test class: 
-"$ mvn -Dtest=TestApp1#methodname test"
+"$ mvn -Dtest=Test_GetAlbumsRestService#testIsReturningARequest test"

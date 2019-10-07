@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class NewTest {
+public class Test_GetAlbumsRestService {
   @Test
-  public void testGetAlbums_isActiveAndReturningRecords() {
+  public void testIsReturningARequest() {
 	    given().
 	    when().
 	        get("https://jsonplaceholder.typicode.com/albums").
