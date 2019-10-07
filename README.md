@@ -17,3 +17,6 @@
 "$ mvn -Dtest=Test_GetAlbumsRestService test"
 5. Run a single test method from a test class: 
 "$ mvn -Dtest=Test_GetAlbumsRestService#testIsReturningARequest test"
+
+#View Test Results
+1. to view test results run from CMD (Maven). Under your project folder, go to "target/surefire/reports", view emailable-report . I liked the "Surefire test.html" report more under "target/surefire/reports/surefire suite"
