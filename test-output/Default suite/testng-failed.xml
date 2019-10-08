@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TakeAway.AssesmentRest.Test_Post">
+      <class name="TakeAway.AssesmentRest.Test_Post2">
         <methods>
           <include name="testIsReturningARequest"/>
         </methods>
-      </class> <!-- TakeAway.AssesmentRest.Test_Post -->
+      </class> <!-- TakeAway.AssesmentRest.Test_Post2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
