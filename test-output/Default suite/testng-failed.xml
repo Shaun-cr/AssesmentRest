@@ -5,7 +5,7 @@
     <classes>
       <class name="TakeAway.AssesmentRest.Test_Post2">
         <methods>
-          <include name="testIsReturningARequest"/>
+          <include name="postsTypicode"/>
         </methods>
       </class> <!-- TakeAway.AssesmentRest.Test_Post2 -->
     </classes>
