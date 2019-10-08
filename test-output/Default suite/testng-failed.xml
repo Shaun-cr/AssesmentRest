@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TakeAway.AssesmentRest.Test_GetAlbumsRestService">
+      <class name="TakeAway.AssesmentRest.Test_BasicLoadTest">
         <methods>
-          <include name="getAlbumsIsReturningRecords"/>
+          <include name="getAlbumsBasicLoadTest"/>
         </methods>
-      </class> <!-- TakeAway.AssesmentRest.Test_GetAlbumsRestService -->
+      </class> <!-- TakeAway.AssesmentRest.Test_BasicLoadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
