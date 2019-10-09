@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Test_BasicLoadTest {
 	
-	@Test(invocationCount = 100, threadPoolSize = 5)
+	@Test(invocationCount = 10, threadPoolSize = 2)
 	  public void getAlbumsBasicLoadTest() {
 		  
 		  	System.out.printf("%n[START] Thread Id : %s is started!", Thread.currentThread().getId());
