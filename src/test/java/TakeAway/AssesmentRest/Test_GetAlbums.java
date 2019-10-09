@@ -1,12 +1,16 @@
 package TakeAway.AssesmentRest;
 
 import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class Test_GetAlbumsRestService {
+public class Test_GetAlbums extends Base{
 	
-  @Test
+  @Test(priority = 1 ) 
   public void getAlbumsIsReturningRecords() {
 	  
 	  	given().log().ifValidationFails().
@@ -22,7 +26,7 @@ public class Test_GetAlbumsRestService {
 		    ;    		
   }
   
-  @Test
+  @Test(priority = 3 ) 
   public void getFirstAlbumRecordAndConfirmAllReturnedData() {
 
 		given().log().ifValidationFails().
@@ -37,6 +41,13 @@ public class Test_GetAlbumsRestService {
 		    	.body("title", equalTo("quidem molestiae enim"))
 		    ;    		
   }
+  
+	@Test(priority = 3 ) 
+	public void logRespondsTimeOnGettingAllUsers() {
+	    Response response = RestAssured.post("https://jsonplaceholder.typicode.com/albums");
+	    long timeInMilliSeconds = response.time();
+	    System.out.println("Responds time , POST 'https://jsonplaceholder.typicode.com/albums' is: " + timeInMilliSeconds + " in MilliSeconds");
+	}
   
   
   

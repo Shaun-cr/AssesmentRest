@@ -1,5 +1,6 @@
 package TakeAway.AssesmentRest;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -8,7 +9,11 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class Test_GetUsersRestService {
+import org.junit.Before;
+
+public class Test_GetUsers extends Base{
+	
+
 	
 		@Test(priority = 1 )
 		public void getUsersIsReturningRecords() {
@@ -31,6 +36,7 @@ public class Test_GetUsersRestService {
 				 .and()
 			        .body("company.name",hasSize(10))
 			    ;  
+			
 		    }
 		
 		@Test(priority = 1 ) 

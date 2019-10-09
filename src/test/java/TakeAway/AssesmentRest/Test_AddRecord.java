@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class Test_AddRecord {
+public class Test_AddRecord extends Base{
   
 	private static String requestParameters = "{\n" +
 	        "  \"title\": \"takeaway\",\n" +
@@ -17,7 +17,7 @@ public class Test_AddRecord {
   
   	@Test
   	public static void testAddRecordAndConfirmRespond() {
-  		  
+  		
 	    given().log().ifValidationFails()
 		    .contentType(ContentType.JSON)
 		    .body(requestParameters).

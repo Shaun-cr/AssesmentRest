@@ -13,7 +13,7 @@ import io.restassured.specification.RequestSpecification;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class Test_Test_AddRecordAlternative {
+public class Test_AddRecordAlternative {
   @Test
   public void testAddRecordAndConfirmRespondStatus() {
 	  

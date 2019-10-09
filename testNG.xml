@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="TestSuite1" parallel="classes" thread-count="2" >
+         
+  <test name="TestCases" >
+	 <classes>
+	   <class name="TakeAway.AssesmentRest.Test_AddRecord"/>
+	   <class name="TakeAway.AssesmentRest.Test_GetAlbums"/>
+	   <class name="TakeAway.AssesmentRest.Test_GetUsers"/>
+	 </classes>
+   </test>
+</suite>

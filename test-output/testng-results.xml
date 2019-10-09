@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Message]]>
+    </line>
   </reporter-output>
-  <suite started-at="2019-10-09T16:05:28 SAST" name="Default suite" finished-at="2019-10-09T16:05:33 SAST" duration-ms="4147">
+  <suite started-at="2019-10-09T18:46:10 SAST" name="Default suite" finished-at="2019-10-09T18:46:12 SAST" duration-ms="2721">
     <groups>
     </groups>
-    <test started-at="2019-10-09T16:05:28 SAST" name="Default test" finished-at="2019-10-09T16:05:33 SAST" duration-ms="4147">
-      <class name="TakeAway.AssesmentRest.Test_GetUsersRestService">
-        <test-method signature="getFirstUserRecordAndConfirmAllReturnedData()[pri:1, instance:TakeAway.AssesmentRest.Test_GetUsersRestService@69930714]" started-at="2019-10-09T16:05:28 SAST" name="getFirstUserRecordAndConfirmAllReturnedData" finished-at="2019-10-09T16:05:31 SAST" duration-ms="2454" status="PASS">
+    <test started-at="2019-10-09T18:46:10 SAST" name="Default test" finished-at="2019-10-09T18:46:12 SAST" duration-ms="2721">
+      <class name="TakeAway.AssesmentRest.Test_AddRecord">
+        <test-method is-config="true" signature="log()[pri:0, instance:TakeAway.AssesmentRest.Test_AddRecord@1d76aeea]" started-at="2019-10-09T18:46:10 SAST" name="log" finished-at="2019-10-09T18:46:10 SAST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method signature="testAddRecordAndConfirmRespond()[pri:0, instance:TakeAway.AssesmentRest.Test_AddRecord@1d76aeea]" started-at="2019-10-09T18:46:10 SAST" name="testAddRecordAndConfirmRespond" finished-at="2019-10-09T18:46:12 SAST" duration-ms="2675" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getFirstUserRecordAndConfirmAllReturnedData -->
-        <test-method signature="getUsersIsReturningRecords()[pri:1, instance:TakeAway.AssesmentRest.Test_GetUsersRestService@69930714]" started-at="2019-10-09T16:05:31 SAST" name="getUsersIsReturningRecords" finished-at="2019-10-09T16:05:32 SAST" duration-ms="807" status="PASS">
+        </test-method> <!-- testAddRecordAndConfirmRespond -->
+        <test-method is-config="true" signature="logAfter()[pri:0, instance:TakeAway.AssesmentRest.Test_AddRecord@1d76aeea]" started-at="2019-10-09T18:46:12 SAST" name="logAfter" finished-at="2019-10-09T18:46:12 SAST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUsersIsReturningRecords -->
-        <test-method signature="logRespondsTimeOnGettingAllUsers()[pri:3, instance:TakeAway.AssesmentRest.Test_GetUsersRestService@69930714]" started-at="2019-10-09T16:05:32 SAST" name="logRespondsTimeOnGettingAllUsers" finished-at="2019-10-09T16:05:33 SAST" duration-ms="853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logRespondsTimeOnGettingAllUsers -->
-      </class> <!-- TakeAway.AssesmentRest.Test_GetUsersRestService -->
+        </test-method> <!-- logAfter -->
+      </class> <!-- TakeAway.AssesmentRest.Test_AddRecord -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
